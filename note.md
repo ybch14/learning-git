@@ -14,4 +14,6 @@
 - cd *pathname* ：设置当前路径
 - mkdir *pathname* ：新建空白路径
 - git rm ：删除版本库中的文件，之后需要commit。
-- 
+
+## 分布式版本控制
+
