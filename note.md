@@ -18,5 +18,6 @@
 ## 分布式版本控制
 
 - git remote add origin git@github.com/*repositoryname*.git ：关联一个github上的远程库
-- git push -u origin master：第一次推送master分支上的所有内容
+- git push -u origin master ：第一次推送master分支上的所有内容
 - git push origin master ：向远程库推送最新修改
+- git clone git@github.com:*username*/*repositoryname*.git ：将Github上已有的代码仓库克隆到本地（支持https,但是git协议速度最快）
