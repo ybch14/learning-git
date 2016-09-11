@@ -1,4 +1,4 @@
-# Git 常用命令
+# Git 学习笔记
 
 ## 集中式版本控制
 
@@ -28,6 +28,6 @@
 - git merge *branchname* ：合并 *branchname* 分支到当前分支
 - git branch -d *branchname* ：删除分支
 - 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成
-
-
+- git merge --no-ff -m "*summary*" *branchname* ：用非fast-forward的方式合并分支。由于此种合并方式会提交一个新的commit，所以需要-m参数来增加描述。
+- 在实际开发中，master分支应该非常稳定，仅用来发布新版本。dev分支不稳定，干活都在dev分支上。团队开发每个人都有自己的分支，时不时合并到dev分支
 
