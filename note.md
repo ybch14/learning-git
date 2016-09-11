@@ -46,5 +46,9 @@
 > 修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除；当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
 
 - git stash：把当前分支的工作储藏起来，等以后恢复现场继续工作。
+- git stash apply：把最近stash的工作恢复，stash的内容不删除，需要用 git stash drop 来删除
+- git stash pop ：把最近stash的工作恢复，stash的内容删除。
+- git stash list：查看stash的内容
+- 
 
 
