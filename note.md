@@ -21,3 +21,10 @@
 - git push -u origin master ：第一次推送master分支上的所有内容
 - git push origin master ：向远程库推送最新修改
 - git clone git@github.com:*username*/*repositoryname*.git ：将Github上已有的代码仓库克隆到本地（支持https,但是git协议速度最快）
+- git branch ：查看分支
+- git branch *branchname* ：创建分支
+- git checkout *branchname* ：切换分支
+- git checkout -b *branchname* ：创建并切换分支
+- git merge *branchname* ：合并 *branchname* 分支到当前分支
+- git branch -d *branchname* ：删除分支
+- 
