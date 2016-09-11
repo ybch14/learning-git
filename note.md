@@ -52,6 +52,8 @@
 
 > 当前工作既不stash又不commit是不可以切换到其他分支的，会有stash提醒。
 
+- git branch -D *branchname* ：强制删除分支
+
 
 
 
