@@ -91,6 +91,10 @@
 - git tag *tagname* *commit id* ：给某一次提交打标签
 - git show *tagname* ：查看标签信息
 - git tag -a *tagname* -m "*summary*" *commit id* ：给某一次提交添加带说明的标签
+- git tag -d *tagname* ：删除本地标签
+- git push origin *tagname* ：把某个标签推到远程
+- git push origin --tags ：一次性推送全部尚未推送到远程的本地标签
+- git push origin :refs/tags/*tagname* ：删除一个远程标签
 
 
 
