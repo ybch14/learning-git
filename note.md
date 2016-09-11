@@ -27,4 +27,7 @@
 - git checkout -b *branchname* ：创建并切换分支
 - git merge *branchname* ：合并 *branchname* 分支到当前分支
 - git branch -d *branchname* ：删除分支
+- 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成
+
+
 
