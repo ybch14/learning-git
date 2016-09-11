@@ -49,6 +49,9 @@
 - git stash apply：把最近stash的工作恢复，stash的内容不删除，需要用 git stash drop 来删除
 - git stash pop ：把最近stash的工作恢复，stash的内容删除。
 - git stash list：查看stash的内容
-- 
+
+> 当前工作既不stash又不commit是不可以切换到其他分支的，会有stash提醒。
+
+
 
 
